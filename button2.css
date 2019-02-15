@@ -7,10 +7,9 @@
 }
 
 :root {
-  --color-primary-500: #FFEB3B;
-  --color-primary-600: #FFFFFF;
-  --color-primary-900: #F57F17;
-  --color-secondary-900: #004D40;
+  --color-primary-500: #FFE8AF;
+  --color-primary-600: #E97C04; 
+  --color-secondary-900: black;
   --font-primary: "Montserrat", sans-serif;
 }
 
@@ -121,7 +120,7 @@
     display: block;
     width: 6px;
     height: 6px;
-    background-color: var(--color-primary-500);
+    background-color: var(--color-primary-600);
     border-radius: 50%;
     offset-path: path("M0 1c7.1 0 10.7 2 14.3 4s7.1 4 14.3 4 10.7-2 14.3-4 7.2-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4 10.7-2 14.3-4 7.1-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4 10.7-2 14.3-4 7.1-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4");
     offset-distance: 0;

@@ -9,10 +9,9 @@
 }
 
 :root {
-  --color-primary-500: #FFEB3B;
-  --color-primary-600: #FDD835;
-  --color-primary-900: #F57F17;
-  --color-secondary-900: #004D40;
+  --color-primary-500: #FFE8AF;
+  --color-primary-600: #E97C04; 
+  --color-secondary-900: black;
   --font-primary: "Montserrat", sans-serif;
 }
 
@@ -142,7 +141,7 @@
     display: block;
     width: 6px;
     height: 6px;
-    background-color: var(--color-primary-500);
+    background-color: var(--color-primary-600);
     border-radius: 50%;
     offset-path: path("M0 1c7.1 0 10.7 2 14.3 4s7.1 4 14.3 4 10.7-2 14.3-4 7.2-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4 10.7-2 14.3-4 7.1-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4 10.7-2 14.3-4 7.1-4 14.3-4 10.7 2 14.3 4 7.1 4 14.3 4");
     offset-distance: 0;
@@ -203,7 +202,7 @@ body{
 
 
 h1{
-	color: #ffffff;
+	color: #F2C27D;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
 	margin-top: 10%;
@@ -211,12 +210,52 @@ h1{
 	width: 100%;
 }
 
+.cup{
+  color: #E97C06;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+  margin-top: 10%;
+  font-size: 60px;
+  width: 100%;
+}
+
 #container_2{
 	display: block;
 	width: 100%;
 	position: absolute;
 }
+
 .buttons{
 	text-align: center;
-	margin-top: 10%;
+  margin-top: 8%;
+}
+
+
+.logo{
+  position: absolute;
+  width: 6%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.coffee{
+  position: absolute;
+  width: 10%;
+  z-index: -10;
+  margin-left: -5%;
+  margin-top: 15%;
+}
+
+.titre{
+  max-width: 30%;
+  margin-left: 34%;
+  margin-top: 13%;
+}
+
+
+@font-face {
+font-family: 'Manoyri-Regular';
+src: url('Manoyri-Regular.otf');
+font-weight: normal;
+font-style: normal;
 }
